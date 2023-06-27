@@ -3,6 +3,8 @@
 ##### HuggingFace Space: https://huggingface.co/spaces/animay620/Twitter_Sentimental_Analysis
 
 This project is a simple web application built with Streamlit that performs sentiment analysis on recent tweets using TextBlob. It allows users to enter a Twitter username, specify the count of recent tweets to analyze, and display the sentiment analysis results in a data frame, along with bar plots for negative and positive sentiments and a count plot for negative, positive, and neutral sentences.
+## ScreenShots
+![image](https://github.com/animay7860/Twitter_Sentimental_Analysis/assets/99870091/eb6233da-e3fa-4ad4-a3d0-cdd2c46b4b39)
 
 ## Features
 
