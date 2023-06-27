@@ -18,11 +18,11 @@ This project is a simple web application built with Streamlit that performs sent
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/twitter-sentiment-analysis.git
+   git clone https://github.com/animay7860/Twitter_Sentimental_Analysis.git
    ```
 2. Change to the project directory:
     ```bash
-    cd twitter-sentiment-analysis
+    cd Twitter_Sentimental_Analysis
     ```
 3. Install the dependencies:
     ```bash
