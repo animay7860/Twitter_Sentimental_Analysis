@@ -21,8 +21,5 @@ This is a simple web application built with Streamlit that performs sentiment an
 
 ## How to Run
 
-1. Clone this GitHub repository:
-
-   ```shell
+```bash
    git clone https://github.com/animay7860/Twitter_Sentimental_Analysis.git
-
