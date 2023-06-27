@@ -1,25 +1,51 @@
-# Twitter Sentiment Analysis with TextBlob
+# Twitter Sentiment Analysis
 
-This is a simple web application built with Streamlit that performs sentiment analysis on recent tweets using the TextBlob library. It allows users to enter a Twitter username and fetches the specified number of recent tweets for sentiment analysis.
+##### HuggingFace Space: https://huggingface.co/spaces/animay620/Twitter_Sentimental_Analysis
+
+This project is a simple web application built with Streamlit that performs sentiment analysis on recent tweets using TextBlob. It allows users to enter a Twitter username, specify the count of recent tweets to analyze, and display the sentiment analysis results in a data frame, along with bar plots for negative and positive sentiments and a count plot for negative, positive, and neutral sentences.
 
 ## Features
 
-- Fetch recent tweets for a given Twitter username
-- Perform sentiment analysis on the fetched tweets using TextBlob
-- Display sentiment analysis results in a DataFrame
-- Visualize sentiment distribution with bar plots
+- Enter a Twitter username and specify the count of recent tweets to analyze.
+- Perform sentiment analysis on the recent tweets using TextBlob.
+- Display the sentiment analysis results in a DataFrame.
+- Visualize the sentiment distribution with bar plots for negative and positive sentiments, and a count plot for negative, positive, and neutral sentences.
 
-## Requirements
+## Installation
 
-- Python 3.7+
-- streamlit==0.88.0
-- tweepy==4.1.0
-- textblob==0.15.3
-- pandas==1.3.4
-- matplotlib==3.4.3
-- seaborn==0.11.2
+1. Clone the repository:
 
-## How to Run
+   ```bash
+   git clone https://github.com/your-username/twitter-sentiment-analysis.git
+   ```
+2. Change to the project directory:
+    ```bash
+    cd twitter-sentiment-analysis
+    ```
+3. Install the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+### Usage
+ 1. Make sure you have your Twitter API credentials ready. If you don't have them, you can create a Twitter Developer account and obtain the required credentials.
+ 2. Open the app.py file and replace the placeholder values for the Twitter API credentials (YOUR_CONSUMER_KEY, YOUR_CONSUMER_SECRET, YOUR_ACCESS_TOKEN, and 
+   YOUR_ACCESS_TOKEN_SECRET) with your actual Twitter API credentials.
+ 3. Run the Streamlit app:
+    ```bash
+    streamlit run app.py
+    ```
+ 4. Open your browser and go to http://localhost:8501 to access the app.
+ 5. Enter a Twitter username and specify the count of recent tweets to analyze.
+ 6. Click the "Get Recent Tweets" button to fetch the recent tweets and perform sentiment analysis.
+ 7. View the sentiment analysis results in the DataFrame and the visualizations.
 
-```bash
-   git clone https://github.com/animay7860/Twitter_Sentimental_Analysis.git
+## Contributing
+Contributions are welcome! If you have any suggestions, enhancements, or bug fixes, feel free to open an issue or submit a pull request.
+
+
+
+
+
+
+
+   
